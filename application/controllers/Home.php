@@ -142,6 +142,18 @@ class home extends CI_Controller {
 
 		echo json_encode($data);
 	}
+	public function verifyCompany()
+	{
+		$data = array('success'=>false);
+		$SQL = "SELECT * FROM tcompany WHERE KodePartner ='". $this->input->post('KodePartner') ."'";
+
+		$rs = $this->db->query($SQL);
+
+		if ($rs->num_rows() > 0) {
+			$data['success'] = true;
+		}
+		echo json_encode($data);
+	}
 	public function register()
 	{
 		$this->load->view('passcode');
