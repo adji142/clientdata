@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "856243245562",
+    "project_id": "epatrol-8513e",
+    "storage_bucket": "epatrol-8513e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856243245562:android:e5f8f4c5bfb18d5f385443",
+        "android_client_info": {
+          "package_name": "ais.patroli.mobilepatrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856243245562-eg5glhvlc1h2cvr0hcidh5umfaqjmjop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ais.patroli.mobilepatrol",
+            "certificate_hash": "8bed3058f84406af30e859fd3d383ec06e9041a3"
+          }
+        },
+        {
+          "client_id": "856243245562-ulrjj5p9qh5n2n3ldv05drc53nmuni98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArnb_cbBBP1uXnoNAXjIqjIoPIxQig0Bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856243245562-ulrjj5p9qh5n2n3ldv05drc53nmuni98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
